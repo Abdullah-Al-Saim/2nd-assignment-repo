@@ -3,7 +3,7 @@ body{
 }
 section{
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 .heading{
     font-size: 30px;
@@ -29,14 +29,16 @@ width: 70%;
     border-radius: 50px;
     font-size: 17px;
     color: white;
+    cursor: pointer;
 }
 .fa-arrow-right{
     margin-left: 10px;
 }
 h2{
-    font-size: 35px;
+    font-size: 40px;
     padding-left: 7%; 
     text-align: center;
+    margin-bottom: 60px;
 }
 .fa-star.filled{
     color: gold;
@@ -73,3 +75,72 @@ h3{
 .item-info{
     font-size: 20px;
 }
+.second-button{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: hotpink;
+    font-size: 17px;
+    text-align: right;
+}
+.button-three{
+    background-color:rgb(219, 74, 122) ;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.last-banner{
+    display: flex;
+}
+.all-info{
+    width: 50%;
+    padding-left: 7%;
+}
+.all-info{
+    font-size: 20px;
+    font-weight: 700;
+}
+.all-info img{
+width: 80%;
+}
+.special{
+    color: hotpink;
+}
+.last-title{
+    color: white;
+    background-color: hotpink;
+    padding: 2px 25px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+}
+ .fotter{
+     background-color: black;
+     padding: 50px 0;
+     margin: 0;
+ }
+ h4{
+     color: white;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 400;
+ }
+ .fotter p{
+    color: white;
+     text-align: center; 
+ }
+ .center{
+     color: white;
+     text-align: center;
+ }
+
+ /*----- Media query -----*/
+
+ /*----- mobile devices -----*/
+
+ @media only screen and (max-width:688) {
+     
+ }
