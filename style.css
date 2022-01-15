@@ -1,42 +1,60 @@
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-right: 50px;
 }
-h2{
-    font-size: 30px;
-}
-h1{
-    font-weight: 800;
-    font-size: 40px;
-}
-.top-part{
+section{
     display: flex;
-    width: 50%;
-}
-.button{
-    background-color: rgb(217, 57, 57);
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.half-width{
-width: 50%;
-}
-.Influencer{
-width: 100%;
-margin-left: 50%;
-}
-.button{
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-
-}
-.fas{
-    margin-left: 10px;
+    margin-bottom: 10%;
 }
 h3{
-    font-size: 25px;
+    font-size: 30px;
+    padding-left: 7%;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+}
+.half-width p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.half-width img{
+width: 70%;
+}
+.button{
+    background-color:rgb(219, 74, 122) ;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: white;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+h2{
+    font-size: 35px;
+    padding-left: 7%; 
     text-align: center;
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.filled{
+    font-size: 10px;
+}
+.fa-star-half-alt{
+    font-size: 10px;
+    color: gold;
+}
+.rate{
+    font-size: 13px;
+}
+.product{
+    box-shadow: 5px 8px 15px 10px;
+}
+.product img{
+    
+    align-items: center;
 }
