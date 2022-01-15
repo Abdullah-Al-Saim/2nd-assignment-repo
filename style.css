@@ -5,7 +5,7 @@ section{
     display: flex;
     margin-bottom: 10%;
 }
-h3{
+.heading{
     font-size: 30px;
     padding-left: 7%;
 }
@@ -18,7 +18,7 @@ h1{
 }
 .half-width p{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .half-width img{
 width: 70%;
@@ -52,9 +52,24 @@ h2{
     font-size: 13px;
 }
 .product{
-    box-shadow: 5px 8px 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:0 65px;
 }
-.product img{
-    
-    align-items: center;
+.item{
+    margin: 20px 80px;
+    box-shadow: 0 0 10px;
+    padding-left: 62px;
+    padding-top: 42px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+}
+.item img{
+align-items: center;
+}
+h3{
+    font-size: 30px;
+}
+.item-info{
+    font-size: 20px;
 }
